@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CATCH THE TIGER</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="phone">
+        <img class="background-img" src="img/background.PNG" alt="">
+        <div class="titles">
+            <h1>CATCH DE TIGER</h1>
+            <h2>Score: <span id="contador">0</span></h2>
+            <button class="reset" onclick="reiniciarContador()">Reset</button>    
+        </div>
+
+        <div class="layer-1">
+            <button class="point" onclick="incrementarContador('bunny1')">
+                <img src="img/tiger.png" alt="">
+            </button>
+        </div>
+        <div class="layer-2">
+            <button class="point" onclick="incrementarContador('bunny2')">
+                <img src="img/tiger.png" alt="">
+            </button>
+        </div>
+        <div class="layer-3">
+           <img src="img/arbusto-1.png" alt=""> 
+        </div>
+        <div class="layer-4">
+            <button class="point" onclick="incrementarContador('bunny3')">
+                <img src="img/tiger.png" alt="">
+            </button>
+        </div>
+        <div class="layer-5"><img src="img/arbusto-2.png" alt=""></div>
+        <div class="layer-6">
+            <button class="point" onclick="incrementarContador('bunny4')">
+                <img src="img/tiger.png" alt="">
+            </button>
+        </div>
+        <div class="layer-7"><img src="img/arbusto-3.png" alt=""></div>
+    </div>
+
+    <script src="js/index.js"></script> 
+    
+</body>
+</html>
